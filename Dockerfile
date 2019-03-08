@@ -17,7 +17,10 @@ RUN apt-get update && apt-get install -y \
   zlib1g-dev \
   libbz2-dev \
   libsqlite3-dev \
-  unzip
+  unzip \
+  vim \
+  less \
+  libnss-sss
 
 RUN apt-get install -y --no-install-recommends libnss-sss
 
